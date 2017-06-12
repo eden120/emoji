@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EmojiKeyboard</string>
+    <string name="label_keyboard_key_go">Go</string>
+    <string name="label_keyboard_key_send">Send</string>
+    <string name="label_keyboard_key_next">Next</string>
+    <string name="recent">Recents</string>
+    <string name="people">People</string>
+    <string name="things">Objects</string>
+    <string name="nature">Nature</string>
+    <string name="places">Places</string>
+    <string name="symbols">Symbols</string>
+
+    <string name="settings">Settings</string>
+    <string name="word_separators">" .,;:!?()[]*&amp;@{}/&lt;>_+=|"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="About_content">Freddy Cannon." Cannon an EMI Record executive at the time in Rome, created a very successful competition between all the English speaking Roman schools, which was broadcast five nights a week.This popular show was followed by many Roman students, became the most highly rated show in the Rome area, with a strong demographic appeal for both English and Italian listeners with an average of 79,000 listeners a night. Due to his EMI connections, Cannon was able to interview many famous stars such as John Lennon, Paul McCartney and many more, giving the station mass appeal. "The Voice of the Daily American" radio station achieved its highest listenership under Cannon's broadcasting direction during 1975-1977. Cannon was also responsible for getting the exclusive radio coverage of the " Save Venice Concert" in 1976, featuring Paul McCartney and Wings, which he was responsible putting together for EMI and the 1976 US Bi Cenntenial celebration in Rome, which he hosted at St.Georges School with 8600 attendees, giving the station exclusive highlighted coverage of both events. Cannon, eventually went on to have an illustrious career in the music industry in Britain ( EMI and Carrere Records ) and later in the United States ( BMI and Creative and Dreams Music Network). One of the other successful shows, was the late night.</string>
+</resources>

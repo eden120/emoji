@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="key_height">50.0dip</dimen>
+    <dimen name="keyboard_height">200dp</dimen>
+    <dimen name="candidate_font_height">16.0sp</dimen>
+    <dimen name="candidate_vertical_padding">6.0sp</dimen>
+</resources>

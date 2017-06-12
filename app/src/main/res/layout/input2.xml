@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.emojikeyboard.EmojiKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg3"
+    android:keyBackground="@android:color/transparent"
+    android:layout_alignParentBottom="true"
+    android:keyPreviewLayout="@layout/popup_prewview_layout">
+</com.emojikeyboard.EmojiKeyboardView>

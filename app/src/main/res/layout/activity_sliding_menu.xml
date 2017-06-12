@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36f2f1"
+    tools:context="com.emojikeyboard.ViewPage.SlidingMenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/home1"
+            android:clickable="true"
+            android:background="@drawable/selector_relative"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:id="@+id/home_icon"
+                android:src="@drawable/home_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/home_icon"
+                android:text="Home"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/font"
+            android:clickable="true"
+            android:background="@drawable/selector_relative"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:id="@+id/font_icon"
+                android:src="@drawable/font_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/font_icon"
+                android:text="Font"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:clickable="true"
+            android:id="@+id/about"
+            android:background="@drawable/selector_relative"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:id="@+id/about_icon"
+                android:src="@drawable/about_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/about_icon"
+                android:text="About"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:clickable="true"
+            android:id="@+id/exit"
+            android:background="@drawable/selector_relative"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:id="@+id/exit_icon"
+                android:src="@drawable/exit_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/exit_icon"
+                android:text="Exit"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

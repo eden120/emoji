@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emojikeyboard.EmojiGridFragment">
+    <TextView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"/>
+    <!-- TODO: Update blank fragment layout -->
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Emoji_GridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="40dip"
+        android:horizontalSpacing="5dip"
+        android:numColumns="auto_fit"
+        android:paddingTop="5dip"
+        android:scrollbars="vertical"
+        android:verticalSpacing="5dip" />
+
+
+
+</FrameLayout>
