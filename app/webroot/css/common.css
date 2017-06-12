@@ -1,0 +1,15 @@
+#actions-box {
+    margin: 0 0 0 10px;
+}
+
+@media (max-width: 360px) {
+	.hide-mobile {
+		  display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.hide-tab {
+		  display: none;
+	}
+}
